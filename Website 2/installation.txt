@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link href="style4.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="headerlogo">
+			<a href="aboutus.html">
+				<img src="mak3.png" width="100%" border="0">
+			</a>
+		</div>
+		<div class="navigation_block">
+			<div class="navigation_wrapper">
+				<nav>
+					<ul>
+						<li>
+							<a href="home.html">Home</a>
+							
+						</li>
+						<li >
+							<a >Tables</a>
+							<ul>
+								<li class="sub">
+									<a >Snooker Tables</a>
+									<ul>
+										<li><a href="engsnotab.html">English Snooker Tables</a></li>
+										<li><a href="fresnotab.html">French Snooker Tables</a></li>
+										
+									</ul>
+								</li>
+								<li><a href="pool.html">Pool Tables</a></li>
+							</ul>
+						</li>
+						<li >
+							<a >Cues</a>
+							<ul>
+								<li class="sub">
+									<a >Snooker Cues</a>
+									<ul>
+										<li><a href="engsnocues.html">English Snooker Cues</a></li>
+										<li><a href="fresnocues.html">French Snooker Cues</a></li>
+										
+									</ul>
+								</li>
+									<li><a href="pool.html">Pool Cues</a></li>
+							</ul>
+						</li>
+						<li >
+							<a >Media</a>
+							<ul>
+								<li><a href="player.html">Players</a></li>
+								<li><a href="roomsize.html">Room Size</a></li>
+								<li><a href="history.html">History</a></li>
+								<li><a href="order.html">Order</a></li>
+								<li><a href="installation.html">Installation</a></li>
+								<li><a href="maintance.html">Maintance</a></li>
+							</ul>
+						</li>
+						<li><a href="accessories.html">Accessories</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+		
+		
+		
+
+		
+		
+		<footer class="wrapper">
+			<div class="sociallinks">
+				<a href="https://www.twitter.com"><img src="twitter.png" alt="Follow us on Twitter" width="29" height="27" border="0"></a>
+				<a href="http://www.facebook.com" target="_blank"><img src="facebook.png" alt="Follow us on Facebook" width="29" height="27" border="0"></a>
+				<a href="http://www.youtube.com" target="_blank"><img src="youtube.png" alt="View our YouTube Channel" width="29" height="27" border="0"></a>
+				<a href="https://www.yahoo.com"><img src="yahoo.png" alt="Follow us on Yahoo" width="29" height="27" border="0"></a>
+				<a href="https://www.gmail.com"><img src="gmail.png" alt="Follow us on Gmail" width="29" height="27" border="0"></a>
+			</div>
+			
+			<span class="link">
+			<a href="contactus.html">Contact us</a> | <a href="">Further information</a> | <a href="privacy-policy.php">Privacy Policy</a> | <a href="">Copyright (C) 2016,MAK International</a> | <a href="home.html" style="color:green">www.makinternational.com</a>
+			</span>
+			<div class="clear"></div>
+		
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,143 @@
+body
+	 {
+		font-family: Arial;
+		font-size: 12px;
+		background: #000;
+		
+		margin: 0px;
+		padding: 0px;
+	}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #CCC;
+}
+a:active {
+	text-decoration: none;
+	color: #CCC;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.header_logo_wrapper 
+	{
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 14px;
+		padding-right: 0px;
+		padding-bottom: 24px;
+		padding-left: 0px;
+		text-align: center;
+		max-width: 968px;
+	}
+.navigation_block
+	 {
+		background-color: #000;
+		padding-top: 11px;
+		padding-bottom: 7px;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		border-top-style: solid;
+		border-bottom-style: solid;
+		border-top-color: #777777;
+		border-bottom-color: #777;
+		margin-bottom: 7px;
+	}
+.navigation_wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	max-width: 968px;
+}
+.dropdownHolder {
+	z-index:20000;
+	padding-top: 4px;
+	color: #FFFFFF;
+	display: none;
+	width: 200px;
+	position: relative;
+}
+.dropdownTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding-right: 9px;
+	padding-left: 9px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 7px;
+	text-align: left;
+	position: absolute;
+	top: -23px;
+	background-color: #333333;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	padding-top: 4px;
+}
+.dropdownLinks {
+	background-color: #333333;
+	border: 1px solid #FFFFFF;
+	padding-top: 8px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+}
+.mainlinks a:link, .mainlinks a:visited {
+	font-family: Arial;
+	font-size: 14px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #999797;
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 4px;
+}
+.mainlinks a:hover, .mainlinks a:active , #mainactive{
+	font-family: Arial;
+	font-size: 14px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 7px;
+	padding-left: 7px;
+	background-image: url(../images/buttonover.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 4px;
+}
+.sublinks2 a:link, .sublinks2 a:visited {
+	display: block;
+	color: #FFFFFF;
+	font-style: italic;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+.sublinks2 a:hover, .sublinks2 a:active {
+	display: block;
+	color: #FFFFFF;
+	font-style: italic;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #239C2B;
+	text-decoration: none;
+}

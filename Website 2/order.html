@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style4.css" rel="stylesheet" type="text/css">
+		<link rel="icon" type="image/x-icon" href="logo.ico"/>
+		<style>
+			h1{
+				text-shadow:5px 7px 20px red;
+			}
+			.one{
+				margin-bottom:5px;
+				background-color:#4d2600;
+				 width:420px;
+			}
+
+			.two{
+				width:500px;
+				text-align:center;
+				background-color:gray;
+				padding:20px 20px 20px 20px;
+			}
+
+			.button{
+				background:#4d2600;
+				color:white;
+				padding:10px 35px;
+				border:5px solid #4d2600;
+				border-radius:10px;
+			}
+			h1{opacity:0.9}
+			h3{opacity:0.6}
+			
+			.d1
+			{
+			
+				position:absolute;
+				left:510px;
+			
+			}
+		</style>
+	</head>
+	<body>
+		<div class="headerlogo">
+			<a href="aboutus.html">
+				<img src="mak3.png" width="100%" border="0">
+			</a>
+		</div>
+		<div class="navigation_block">
+			<div class="navigation_wrapper">
+				<nav>
+					<ul>
+						<li>
+							<a href="home.html">Home</a>
+							
+						</li>
+						<li >
+							<a >Tables</a>
+							<ul>
+								<li class="sub">
+									<a >Snooker Tables</a>
+									<ul>
+										<li><a href="eng_table.html">English</a></li>
+										<li><a href="fre_table.html">French</a></li>
+										
+									</ul>
+								</li>
+								<li><a href="pooltable.html">Pool Tables</a></li>
+							</ul>
+						</li>
+						<li >
+							<a >Cues</a>
+							<ul>
+								<li class="sub">
+									<a href="eng_cue.html">Snooker Cues</a>
+									
+								</li>
+									<li><a href="poolcue.html">Pool Cues</a></li>
+							</ul>
+						</li>
+						<li >
+							<a >Media</a>
+							<ul>
+								<li><a href="player.html">Players</a></li>
+								<li><a href="roomsize.html">Room Size</a></li>
+								<li><a href="history.html">History</a></li>
+								<li><a href="order.html">Order</a></li>
+								<li><a href="installation.html">Installation</a></li>
+								<li><a href="maintenance.html">Maintenance</a></li>
+							</ul>
+						</li>
+						<li><a href="accessories.html">Accessories</a></li>
+						
+						<li><a href="aboutus.html">About Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		
+		<div class="header_image_large">
+			<img src="order.jpg" width="968" height="418">
+		</div>
+		
+		<div class="page_wrapper">
+			<div class="center" style="padding-top:42px;padding-bottom:20px"><h1>ORDER</h1></div>
+			
+				<form class="two">
+		
+				<h1>PAYMENT FORM</h1>
+				<h3>YOUR DETAILS</h3>
+					<fieldset class="one">
+					<label>
+					
+					Name
+					<input type="text" name="name" id="nameinput"placeholder="First and Last name"/>
+					</label>
+					</fieldset>
+					<fieldset class="one">
+					<label>
+					
+					Email
+					<input type="email"name="email" id="emailinput"placeholder="yourmail@domain.com"/>
+					</label>
+					</fieldset>
+					<fieldset class="one">
+					<label>
+					
+					Phone
+					<input type="tel" name="tel" id="phoneinput"placeholder="+1 123 456 7890">
+					</label>
+					</fieldset><br>
+					<h3>DELIVERY ADDRESS</h3>			
+					<fieldset class="one">
+					
+					<label >
+					
+					<span class="d1" >ADDRESS</span></label>
+					<textarea name="message" rows="8" cols="30" >
+					</textarea>
+					</fieldset>
+					<fieldset class="one">
+					<label>
+					
+					Postal code
+					<input type="postalcode" name="postalcode" id="code" placeholder="eg:A1B 2C3">
+					</label>
+					</fieldset>
+					<fieldset class="one">
+					<label>
+					
+					Country
+					<input type="text" name="name" id="name">
+					</label>
+					</fieldset>
+					<br>
+					
+					<h3>CARD DETAILS</h3>
+					<label>
+					<fieldset class="one">
+					<img src="visa.jpg" alt="visa" style="width:40px;height:20px;">
+					VISA
+					<input type="radio" name="cards" id="visa" checked="checked"/>
+					</label>
+					
+					<label>
+					<img src="mastercard.jpg" alt="mastercard" style="width:40px;height:20px;">			
+					MASTER CARD
+					<input type="radio" name="cards" id="mastercard" />
+					</label>
+					
+					<label>
+					<img src="american.jpg" alt="american" style="width:40px;height:20px;">
+					AmEx
+					<input type="radio" name="cards" id="american" />
+					</label><br><br>
+					
+					<label>Card number
+					<input type="number" name="number" id="number" placeholder="1234 2345 3456 4567">
+					</label>
+					</fieldset>
+
+					<fieldset class="one">
+					<label>Security code
+					<input type="password" name="password" id="password" placeholder="***">
+					</label>			
+					</fieldset>
+					
+					<fieldset class="one">
+					<label>Expiration date
+					<input type="year" name="year" id="year" placeholder="MM/YY">
+					</label>
+					</fieldset>
+					
+					<fieldset class="one">			
+					<label>Name on card
+					<input type="name" name="name" id="name" placeholder="same as on the card">
+					</label>
+					
+					<br><br>
+					</fieldset>
+					<br>
+					
+					<a class="button" href="thanks.html">PLACE ORDER!</a>
+		</div>
+		<div class="page_wrapper">
+					<p>
+						Your orders can be taken over the telephone or by email. Payment will be requested by credit card or by bank transfer into 
+						our account. Once your order is ready for despatch and all outstanding balances have been remitted, we will arrange for
+						transport of your snooker table direct to your address.<br><br>
+
+						MAK International are experienced at shipping tables to all countries in the world and we operate a full door to door service. 
+						Transportation prices are quoted individually and we use very reliable and prompt shipping services. All documentation
+						necessary to expedite the import of the table will be provided and import duties etc will be included within our price for 
+						transportation.<br><br>
+						Our contact details are as follows:<br><br>
+						
+						<strong style="color:yellow">Canada Sales</strong><br><br> 
+						1812,80 Forest manor road<br>
+						Nork York,ON<br><br>
+						Tel: +44 (0)1525 -719105<br>
+						Fax: +44 (0)1525-719402<br><br>
+						
+						<strong style="color:yellow"> For CANADA Enquiries contact:</strong><br><br>
+						Akshesh Patel<br>
+						Email: <a target="_blank" title="akshesh@makinternational.com" href="#">t.condron@bce-uk.com</a><br>
+						Tel:+44 (0)1355-261221<br><br>
+						
+						<strong style="color:yellow"> For Export Enquiries contact:</strong><br><br>
+						Dharmendhra Reddy<br>
+						Email: <a title="reddy@makinternational.com" href="#" target="_blank">r.lacey@bce-uk.com</a><br>
+						Tel: +44 (0)1525-719105<br><br><br>
+					</p>
+				
+			
+		</div>
+		
+
+		
+		
+		<footer class="wrapper">
+			<div class="sociallinks">
+				<a href="https://www.twitter.com"><img src="twitter.png" alt="Follow us on Twitter" width="29" height="27" border="0"></a>
+				<a href="http://www.facebook.com" target="_blank"><img src="facebook.png" alt="Follow us on Facebook" width="29" height="27" border="0"></a>
+				<a href="http://www.youtube.com" target="_blank"><img src="youtube.png" alt="View our YouTube Channel" width="29" height="27" border="0"></a>
+				<a href="https://www.yahoo.com"><img src="yahoo.png" alt="Follow us on Yahoo" width="29" height="27" border="0"></a>
+				<a href="https://www.gmail.com"><img src="gmail.png" alt="Follow us on Gmail" width="29" height="27" border="0"></a>
+			</div>
+			
+			<span class="link">
+			<a href="contactus.html">Contact us</a> | <a href="furtherinfo.html">Further information</a> | <a href="sitemap.html">Site Map</a> | <a style="color:#888">Copyright (C) 2016,MAK International</a> | <a href="home.html" style="color:green">www.makinternational.com</a>
+			</span>
+			<div class="clear"></div>
+		
+		</footer>
+	</body>
+</html>

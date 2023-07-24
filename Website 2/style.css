@@ -1,0 +1,126 @@
+body
+	{
+		font-family: Arial;
+		background: #000;
+		color: #fff;
+	}
+
+/*div.container
+	{
+		width: 914px;
+		display: table;
+		margin: 0px auto;
+	}
+*/
+div.logo
+	{
+		width: 600px;
+		margin: 0px auto;
+	}
+
+/*div.top
+{
+	width: 437px;
+	margin: 0px auto;
+	clear: both;
+}*/
+div.india
+	{
+		width: 600px;
+		margin-top: 10px;
+		margin-right: auto;
+		margin-bottom: 10px;
+		margin-left: auto;
+	}
+div.top h1
+	{
+		text-align: center;
+		font-size: 18px;
+		padding: 0px;
+		margin: 0px;
+		color: #32913f;
+	}
+div.top h2
+	{
+		text-align: center;
+		font-size: 14px;
+		padding: 0px;
+		margin: 0px;
+	}
+div.india h4
+	{
+		float: left;
+		clear: none;
+		margin: 35px 0px 0px 75px;
+		display: block;
+		width: 230px;
+		text-decoration: none;
+		color: yellow;
+		font-weight: bold;
+		text-align: center;
+	}
+/*div.india a:hover, div.india a.link:hover
+	{
+		color: #eccb28;
+	}*/
+div.india p
+	{
+		padding-top: 30px;
+		clear: both;
+		text-align: center;
+	}
+
+div.spacer
+	{
+		background: #fff;
+		height: 1px;
+		margin-top: 40px;
+		margin-bottom: 20px;
+		clear: both;
+	}
+div.flag
+	{
+		margin: 0px;
+		width: 112px;
+		height: 96px;
+		float: left;
+		clear: left;
+		margin-bottom: 15px;
+	}
+
+div.topone
+	{
+		margin-bottom: 0px;
+	}
+.flagHolder 
+	{
+		float: left;
+		width: 49%;
+		margin-bottom: 15px;
+	}
+.country 
+	{
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 13px;
+		margin-left: 15px;
+		float: left;
+		width: 150px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		text-align: left;
+	}
+.largetext
+	 {
+		font-size: 18px;
+		font-weight: bold;
+		color:yellow;
+	}
+.india2
+	 {
+		width: 700px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 150px;
+		margin-bottom: 20px;
+	}
